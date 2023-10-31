@@ -23,7 +23,7 @@ function handleCellClick(event) {
     event.target.textContent = currentPlayer;
     if (checkWinner()) {
       //   alert(currentPlayer + " wins!");
-      msg = `${currentPlayer} + " wins!"`;
+      msg = `${currentPlayer} wins!`;
       resetBoard();
     } else if (board.every((cell) => cell !== "")) {
       //   alert("It's a draw!");
