@@ -1,13 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>StopWatch</title>
+    <title>Tic Tac Toe</title>
     <script src="resources/js/script.js" defer></script>
     <link rel="stylesheet" href="resources/css/style.css" />
   </head>
   <body>
-    <div>STOP WATCH</div>
+    <br /><br /><br />
+    <div class="title">Tic-Tac-Toe Web Application</div>
+    <br />
+    <div class="subtitle">Made by Sumesh Shrestha</div>
+    <br /><br /><br />
+    <div class="board" id="board"></div>
+    <br /><br />
+    <div id="msgbox">
+      ----Match State----
+      <p id="msg">&nbsp;</p>
+    </div>
+    <br /><br /><br /><br />
+    <button onclick="resetBoard()">Reset Board</button>
   </body>
 </html>
